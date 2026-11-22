@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <img src="publishing/media/demo.gif" width="600" alt="Painting into the air next to the terrain">
+</p>
+
+<p align="center">
   <a href="https://modrinth.com/mod/axiom-utilities">Modrinth</a> ·
   <a href="https://github.com/Vivegass/axiom-utilities/releases">Releases</a>
 </p>
@@ -21,8 +25,14 @@ Everything lives inside Axiom's own **Tool Options** window and **Select Block**
 ### Offset target point — for every tool
 The Modelling and Shape tools have an *Offset target point* checkbox that aims at the block **next to** the face you look at instead of the block itself. Axiom Utilities adds that checkbox to every other tool (under **Placement**), remembered per tool.
 
+| Off (Axiom default) | On |
+|---|---|
+| ![Offset off](publishing/media/offset-off.webp) | ![Offset on](publishing/media/offset-on.webp) |
+
 ### Paint in air next to blocks
 Painter, Noise Painter and Gradient Painter normally only recolour existing blocks. Tick **Paint in air next to blocks** and they paint into the air layer that touches the surface instead, keeping all their settings — block percentages, noise, gradients, masks. **Layer thickness** (1–6) controls how far from the surface the layer reaches.
+
+![Paint in air next to blocks](publishing/media/paint-in-air-terrain.webp)
 
 ### Global presets
 A **Global presets** section at the bottom of Tool Options saves the current state and brings it back in one click:
@@ -41,6 +51,8 @@ Presets are plain files in `config/axiom-utilities/presets/`, so they are easy t
 
 ### Block pipette
 The **Select Block** dialog (opened from any block list — Painter, Gradient Painter, Noise Painter, …) gets a **Pick from world (pipette)** button. Click it, then click any block in the world to put it into that slot, including its block state. `Esc` cancels.
+
+![Pipette](publishing/media/pipette.webp)
 
 ## Requirements
 

@@ -2,13 +2,19 @@
 
 *Unofficial — not affiliated with or endorsed by Moulberry or the Axiom project.*
 
+![Painting into the air next to the terrain with Axiom Utilities](https://raw.githubusercontent.com/Vivegass/axiom-utilities/main/publishing/media/demo.gif)
+
 ## Features
 
 ### 🎯 Offset target point — for every tool
 The Modelling and Shape tools can aim at the block **next to** the face you look at instead of the block itself. Axiom Utilities adds that *Offset target point* checkbox to every other tool, remembered per tool.
 
+![Offset target point: the brush aims at the space in front of the face](https://raw.githubusercontent.com/Vivegass/axiom-utilities/main/publishing/media/offset-on.webp)
+
 ### 🖌️ Paint in air next to blocks
 Painter, Noise Painter and Gradient Painter normally only recolour existing blocks. With **Paint in air next to blocks** they paint into the air layer touching the surface instead — keeping block percentages, noise, gradients and masks. *Layer thickness* (1–6) sets how far the layer reaches.
+
+![Coating the terrain with stone using Paint in air next to blocks](https://raw.githubusercontent.com/Vivegass/axiom-utilities/main/publishing/media/paint-in-air-terrain.webp)
 
 ### 💾 Global presets
 Save the current state and bring it back in one click:
@@ -22,6 +28,8 @@ Choose what goes into each preset and what to apply when loading. Picking a pres
 
 ### 💧 Block pipette
 The *Select Block* dialog gets a **Pick from world** button: click it, then click any block in the world to put it — with its block state — into that slot. `Esc` cancels.
+
+![The pipette highlights the block under the cursor](https://raw.githubusercontent.com/Vivegass/axiom-utilities/main/publishing/media/pipette.webp)
 
 ## Requirements
 
