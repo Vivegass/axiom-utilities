@@ -9,6 +9,11 @@
   <sub>Unofficial. Not affiliated with or endorsed by Moulberry or the Axiom project.</sub>
 </p>
 
+<p align="center">
+  <a href="https://modrinth.com/mod/axiom-utilities">Modrinth</a> ·
+  <a href="https://github.com/Vivegass/axiom-utilities/releases">Releases</a>
+</p>
+
 ## Features
 
 Everything lives inside Axiom's own **Tool Options** window and **Select Block** dialog — no new keybinds, no extra screens.
@@ -52,7 +57,7 @@ Axiom Utilities hooks into Axiom's internals, so it is pinned to Axiom 6.1.x. If
 ## Installation
 
 1. Install Fabric Loader and Axiom for Minecraft 26.3.
-2. Drop `axiom-utilities-<version>.jar` into your `mods` folder.
+2. Download `axiom-utilities-<version>.jar` from [Modrinth](https://modrinth.com/mod/axiom-utilities) or [Releases](https://github.com/Vivegass/axiom-utilities/releases) and drop it into your `mods` folder.
 
 Settings are stored in `config/axiom-utilities/` (`placement.json` and `presets/`).
 
